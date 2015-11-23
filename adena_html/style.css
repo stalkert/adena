@@ -405,7 +405,7 @@ overflow:hidden;
 
 body {
     margin: 0;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #3C3C3C!important;
@@ -425,6 +425,9 @@ border-bottom: 1px solid #D4D4D4;
 .gray-color{
 color:#D4D4D4;
 }
+#login a{
+	font-size: 13px;
+}
 
 #logo img{
 	width: 100%;
@@ -439,7 +442,11 @@ padding: 5px 0;
 .active a{
 color:#07A987!important;
 }
+#navbar{
+margin-left: 20px;
+}
 #navbar a{
+font-size: 1.15em;
 	font-weight: bold;
 	color:#3C3C3C;
 }
@@ -486,6 +493,7 @@ color:#07A987!important;
 }
 #partners .nav-tabs{
 border-bottom: 1px solid #07A987;
+font-size:1.2em;
 }
 #footer{
 margin-top:40px;
@@ -514,5 +522,21 @@ margin-top:40px;
 .tab-content{
 	padding-top:20px;
 }
-
-
+#search {
+	padding-bottom:20px;
+}
+#search input,#search button{
+	border-color: #07A987;
+}
+#search button{
+	background-color:#07A987;
+	color:#fff;
+}
+#search {
+display:none;
+	margin-left:30px;
+}
+#search-handler{
+displey: inline-block;
+	cursor: pointer;
+}

@@ -5,6 +5,7 @@
     <title>Adena Trade</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet">
 
 </head>
@@ -13,9 +14,9 @@
     <div class="container">
         <div class="row padding5">
             <div  id="login" class="col-md-12 green-color">
-             <a href="#">Вход в аккаунт</a>   
+             <a href="#">Вход в аккаунт</a> &nbsp  &nbsp  &nbsp  
 			<a href="#">Запрос доступа</a> 	
-
+				
                 
             </div>
 		</div>		
@@ -30,15 +31,25 @@
 			<div  id="logo" class="col-md-2 col-sm-12">
              <img src="images/logo.png"> 	
             </div>
-            <ul id="navbar" class="nav navbar-nav col-md-8 col-sm-9">
+            <ul id="navbar" class="nav navbar-nav col-md-7 col-sm-9">
                 <li class="active"><a href="#">Главная</a></li>
                 <li><a href="#">Оптовым покупателям</a></li>
                  <li><a href="#">Контакты</a></li>
                  <li><a href="#">Где купить</a></li>
             </ul>
 			<div  id="shopping-cart" class="col-md-2 col-sm-2">
-				<i class="glyphicon glyphicon-search gray-color"></i>
+				<i class="glyphicon glyphicon-search gray-color" id="search-handler"></i>
 				<i class="glyphicon glyphicon-shopping-cart"></i>
+			</div>
+		</div>
+		<div class="row" id="search">
+			<div class="input-group col-md-8 col-md-offset-2 col-sm-10 col-xs-10">
+				
+					<input type="text" class="form-control" >
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Поиск!</button>
+					</span>
+				</div>
 			</div>
 		</div>
 	</div>

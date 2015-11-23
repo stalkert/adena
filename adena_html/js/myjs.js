@@ -10,6 +10,8 @@ $(document).ready(function(){
 		e.preventDefault()
 		$(this).tab('show')
 	});
-	
+	$('#search-handler').click(function(){
+		$('#search').slideToggle('slow');
+	});
 	
 });
