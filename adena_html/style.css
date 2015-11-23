@@ -4,7 +4,7 @@ Author: Taranenko IURII
 Version: 1.0
 */
 
-@media screen and (max-width: 660px) {
+/*@media screen and (max-width: 660px) {
     #namesite a{
         font-size: 0.9em!important;
     }
@@ -401,3 +401,118 @@ background-color:#c0c0c0!important;
 .content-post{
 overflow:hidden;
 }
+*/
+
+body {
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3C3C3C!important;
+    background-color: #f5f5f5;
+}
+.wrapper-bg{
+	background-color: #fff;
+}
+
+
+.gray-line{
+border-bottom: 1px solid #D4D4D4;
+}
+.green-color,.green-color a{
+	color:#07A987!important;
+}
+.gray-color{
+color:#D4D4D4;
+}
+
+#logo img{
+	width: 100%;
+	
+}
+.padding5{
+padding: 5px 0;
+}
+.padding10 {
+	padding: 10px 0;
+}
+.active a{
+color:#07A987!important;
+}
+#navbar a{
+	font-weight: bold;
+	color:#3C3C3C;
+}
+#navbar  li a:hover{
+	color:#07A987;
+	background-color: #fff!important;
+}
+#shopping-cart i{
+	font-size:150%;
+	margin: 12px 10px 0 0;
+	color: #999999;
+	
+}
+#shopping-cart{
+	float: right;
+}
+#adena-slider img{
+	width:100%;
+}
+#about-us,#partners{
+	background-color: #fff;
+	border-top: 2px solid #07A987;
+	margin-bottom: 20px;
+	padding-bottom:20px;
+}
+#about-us img{
+	width: 200px;
+	float: left;
+	margin: 10px 20px 20px 0;
+}
+.clear{
+	clear: both;
+}
+#about-us h3,#partners h3{
+	padding-bottom: 20px;
+
+}
+#partners li >a{
+	color:#3C3C3C!important;
+}
+#partners li.active >a{
+	background-color: #07A987;
+	color: #fff!important;
+}
+#partners .nav-tabs{
+border-bottom: 1px solid #07A987;
+}
+#footer{
+margin-top:40px;
+	background-color:#222222;
+	color:#999999;
+}
+#footer h3{
+	text-align:center;
+}
+.contact-information i{
+	font-size: 200%;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.contact-information i:hover{
+	color:#07A987;
+}
+.contact-information p:nth-child(2){
+	font-weight:bold;
+}
+#sent .btn-default{
+	background-color:#07A987;
+	border-color:#07A987;
+	color:#fff;
+}
+.tab-content{
+	padding-top:20px;
+}
+
+
