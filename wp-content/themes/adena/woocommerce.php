@@ -14,6 +14,9 @@
 					<li><a href="<?php  echo get_term_link(14,'product_cat'); ?>"><?php echo get_term(14,'product_cat')->name; ?></a></li>
 					<li><a href="<?php  echo get_term_link(15,'product_cat'); ?>"><?php echo get_term(15,'product_cat')->name; ?></a></li>
 				</ul>
+				<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('woo_category')) : ?>
+					
+				<?php endif; ?>
              </div>
 			 <div class="col-md-9" id="item-list">
 				<?php woocommerce_content();?>
