@@ -566,6 +566,7 @@ font-size: 1.15em;
 
 #shopping-cart{
 	float: right;
+	
 }
 
 #adena-slider img{
@@ -664,8 +665,33 @@ display:none;
 displey: inline-block;
 	cursor: pointer;
 }
-
-
+.dropdown-cart-button{
+	width: 25px;
+	height: 20px;
+	background-color:#07A987;
+}
+.dropdown-total{
+	color: #fff;
+	margin: 0;
+    font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	margin-left: 8px;
+}
+#widget_shopping_mini_cart-2{
+	display:inline-block;
+	list-style: none;
+	position: absolute;
+	top: 14px;
+	left: 79px;
+	
+	
+}
+.wrapper-shopping-cart{
+	position:relative;
+}
+#img-cart:hover i{
+	color:#07A987;
+}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @charset "UTF-8";

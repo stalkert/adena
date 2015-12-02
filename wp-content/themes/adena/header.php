@@ -40,9 +40,14 @@
                  <li><a href="#">Контакты</a></li>
                  <li><a href="#">Где купить</a></li>
             </ul>
-			<div  id="shopping-cart" class="col-md-2 col-sm-2">
-				<i class="glyphicon glyphicon-search gray-color" id="search-handler"></i>
-				<i class="glyphicon glyphicon-shopping-cart"></i>
+			<div  id="shopping-cart" class="col-md-2 col-sm-2 col-xs-3">
+				<div id="wrapper-shopping-cart">
+					<i class="glyphicon glyphicon-search gray-color" id="search-handler"></i>
+					<a id="img-cart" href="<?php echo get_permalink(9);?>"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+					<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('woo_cart')) : ?>
+						
+					<?php endif; ?>
+				</div>
 			</div>
 		</div>
 		<div class="row" id="search">
