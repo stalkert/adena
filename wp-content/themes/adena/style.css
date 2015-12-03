@@ -501,7 +501,9 @@ body {
     color: #3C3C3C!important;
     background-color: #f5f5f5;
 }
-
+h3,h4{
+font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+}
 .wrapper-bg{
 	background-color: #fff;
 }
@@ -566,7 +568,20 @@ font-size: 1.15em;
 
 #shopping-cart{
 	float: right;
+	posirion:relative;
 	
+}
+#menu-cart{
+	position: absolute;
+	top: 8px;
+	margin-left:30px;
+	
+}
+#menu-cart li{
+	list-style: none;
+}
+.wpmenucart-icon-shopping-cart-0{
+	font-size: 180%!important;
 }
 
 #adena-slider img{
@@ -665,32 +680,14 @@ display:none;
 displey: inline-block;
 	cursor: pointer;
 }
-.dropdown-cart-button{
-	width: 25px;
-	height: 20px;
-	background-color:#07A987;
-}
-.dropdown-total{
-	color: #fff;
-	margin: 0;
-    font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-	margin-left: 8px;
-}
-#widget_shopping_mini_cart-2{
-	display:inline-block;
-	list-style: none;
-	position: absolute;
-	top: 14px;
-	left: 79px;
-	
-	
-}
-.wrapper-shopping-cart{
-	position:relative;
-}
+
+
+
 #img-cart:hover i{
 	color:#07A987;
+}
+#contacts{
+	margin-top: 36px;
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 

@@ -411,6 +411,9 @@ body {
     color: #3C3C3C!important;
     background-color: #f5f5f5;
 }
+h3,h4{
+font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+}
 .wrapper-bg{
 	background-color: #fff;
 }
@@ -502,6 +505,7 @@ margin-top:40px;
 }
 #footer h3{
 	text-align:center;
+	
 }
 .contact-information i{
 	font-size: 200%;
@@ -539,4 +543,7 @@ display:none;
 #search-handler{
 displey: inline-block;
 	cursor: pointer;
+}
+#contacts{
+	margin-top: 36px;
 }

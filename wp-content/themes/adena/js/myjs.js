@@ -8,6 +8,10 @@ $(document).ready(function(){
 		$('#category-list').remove();
 	}
 	$('.bxslider').bxSlider({
+	  mode: 'fade',
+	  adaptiveHeight: true,
+	  
+		captions: true
 	});
 	
 	$('#partners a').click(function (e) {
