@@ -559,7 +559,7 @@ font-size: 1.15em;
 	background-color: #fff!important;
 }
 
-#shopping-cart i{
+#shopping-cart>i{
 	font-size:150%;
 	margin: 12px 10px 0 0;
 	color: #999999;
@@ -569,12 +569,15 @@ font-size: 1.15em;
 #shopping-cart{
 	float: right;
 	posirion:relative;
+	padding-left:28px;
+	padding-right:0;
 	
 }
 #menu-cart{
 	position: absolute;
-	top: 8px;
+	top: 6px;
 	margin-left:30px;
+	padding-left:0px;
 	
 }
 #menu-cart li{
@@ -582,6 +585,9 @@ font-size: 1.15em;
 }
 .wpmenucart-icon-shopping-cart-0{
 	font-size: 180%!important;
+}
+#menu-cart a{
+	text-decoration:none;
 }
 
 #adena-slider img{
@@ -689,6 +695,23 @@ displey: inline-block;
 #contacts{
 	margin-top: 36px;
 }
+.cartcontents{
+	background-image: url('images/bg_count_item.png');
+	background-size: 100%;
+	width:28px;
+	height: 20px;
+	color: #fff;
+	padding-left:2px;
+	text-align:center;
+	
+}
+.wpmenucart-icon-shopping-cart-0{
+	margin-right:0.35em;
+	position: relative;
+	top:3px;
+	color:#999999;
+}
+
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @charset "UTF-8";

@@ -406,12 +406,12 @@ class WpMenuCart {
 			//use WPML
 			$viewing_cart = icl_t('WP Menu Cart', 'hover text', 'View your shopping cart');
 			$start_shopping = icl_t('WP Menu Cart', 'empty hover text', 'Start shopping');
-			$cart_contents = $item_data['cart_contents_count'] .' '. ( $item_data['cart_contents_count'] == 1 ?  icl_t('WP Menu Cart', 'item text', 'item') :  icl_t('WP Menu Cart', 'items text', 'items') );
+			$cart_contents = $item_data['cart_contents_count'];// .' '. ( $item_data['cart_contents_count'] == 1 ?  icl_t('WP Menu Cart', 'item text', 'item') :  icl_t('WP Menu Cart', 'items text', 'items') );
 		} else {
 			//use regular WP i18n
 			$viewing_cart = __('View your shopping cart', 'wpmenucart');
 			$start_shopping = __('Start shopping', 'wpmenucart');
-			$cart_contents = sprintf(_n('%d item', '%d items', $item_data['cart_contents_count'], 'wpmenucart'), $item_data['cart_contents_count']);
+			$cart_contents = sprintf(/*_n('%d item', '%d items', $item_data['cart_contents_count'], 'wpmenucart'),*/ $item_data['cart_contents_count']);
 		}	
 
 		$this->menu_items['menu']['cart_contents'] = $cart_contents;

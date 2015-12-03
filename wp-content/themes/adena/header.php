@@ -40,11 +40,11 @@
                  <li><a href="#">Контакты</a></li>
                  <li><a href="#">Где купить</a></li>
             </ul>
-			<div  id="shopping-cart" class="col-md-2 col-sm-2 col-xs-3">
+			<div  id="shopping-cart" class="col-md-2 col-sm-2 col-xs-12">
 				
 					<i class="glyphicon glyphicon-search gray-color" id="search-handler"></i>
 					<?php wp_nav_menu(array('theme_location' => 'cart-menu'));?>
-					
+				
 				
 			</div>
 		</div>
