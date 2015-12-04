@@ -36,7 +36,11 @@
             </div>
             <ul id="navbar" class="nav navbar-nav col-md-7 col-sm-9">
                 <li class="active"><a href="<?php bloginfo( 'url' ); ?>">Главная</a></li>
-                <li><a href="<?php echo get_permalink(16);?>"><?php  echo get_the_title(16);?></a></li>
+                <li><a href="<?php if ( is_user_logged_in() ) {
+							echo get_permalink(16);
+						}else{
+						echo get_permalink(11);
+						};?>"><?php  echo get_the_title(16);?></a></li>
                  <li><a href="#">Контакты</a></li>
                  <li><a href="#">Где купить</a></li>
             </ul>

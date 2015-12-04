@@ -3,9 +3,11 @@
  */
 $(document).ready(function(){
 	var login = $('.woocommerce>h2').html();
-	console.log(login);
+	
 	if(login ==='Авторизация'){
 		$('#category-list').remove();
+		console.log('/optovym-pokupatelyam');
+		$("input[name='_wp_http_referer']").val('/optovym-pokupatelyam');
 	}
 	$('.bxslider').bxSlider({
 	  mode: 'fade',
