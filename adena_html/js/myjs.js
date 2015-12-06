@@ -4,6 +4,8 @@
 $(document).ready(function(){
 
 	$('.bxslider').bxSlider({
+	 mode: 'fade',
+		captions: true
 	});
 	
 	$('#partners a').click(function (e) {

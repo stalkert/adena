@@ -436,6 +436,9 @@ color:#D4D4D4;
 	width: 100%;
 	
 }
+#logo{
+	padding:0;
+}
 .padding5{
 padding: 5px 0;
 }
@@ -446,7 +449,8 @@ padding: 5px 0;
 color:#07A987!important;
 }
 #navbar{
-margin-left: 20px;
+	padding-right: 0px;
+	width:70%;
 }
 #navbar a{
 font-size: 1.15em;
@@ -465,6 +469,8 @@ font-size: 1.15em;
 }
 #shopping-cart{
 	float: right;
+	padding:0;
+	width:10%;
 }
 #adena-slider img{
 	width:100%;
@@ -475,10 +481,17 @@ font-size: 1.15em;
 	margin-bottom: 20px;
 	padding-bottom:20px;
 }
-#about-us img{
+#about-us img, #partners img{
 	width: 200px;
 	float: left;
-	margin: 10px 20px 20px 0;
+	margin: 0 20px 20px 0;
+}
+.tab-content{
+	min-height:200px;
+}
+.bxslider li{
+	left:0;
+	right:0;
 }
 .clear{
 	clear: both;
