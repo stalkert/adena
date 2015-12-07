@@ -9,4 +9,7 @@ if(function_exists('register_sidebar')){
 }
 define('WOOCOMMERCE_USE_CSS', false);
 add_theme_support( 'woocommerce' );
+function woocommerce_output_related_products() {
+ woocommerce_related_products(0,0); // Показать 4 товара а 4 колонки
+ }
 ?>
