@@ -31,10 +31,10 @@
 <div class="wrapper-bg">	
     <div class="container ">    
         <div class="row padding10">
-			<div  id="logo" class="col-md-2 col-sm-12">
+			<div  id="logo" class="col-md-2 col-sm-2">
              <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png"> 	
             </div>
-            <ul id="navbar" class="nav navbar-nav col-md-7 col-sm-9">
+            <ul id="navbar" class="nav navbar-nav col-md-7 col-sm-9 ">
                 <li class="active"><a href="<?php bloginfo( 'url' ); ?>">Главная</a></li>
                 <li><a href="<?php if ( is_user_logged_in() ) {
 							echo get_permalink(16);
