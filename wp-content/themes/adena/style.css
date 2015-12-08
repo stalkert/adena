@@ -324,7 +324,42 @@ displey: inline-block;
     left: 0;
     right: 0;
 }
-
+#text-2{
+	list-style:none;
+}
+.form-group{
+	overflow:hidden;
+}
+.wpcf7-submit{
+  -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	 background-color: #07a987;
+    border-color: #07a987;
+    color: #fff;
+	
+}
+#feedback{
+	padding-left:15px;
+}
+#login-user{
+	
+	color:#999;
+}
+#logout{
+	text-align: right;
+}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @charset "UTF-8";

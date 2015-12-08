@@ -16,11 +16,15 @@
 <div class="wrapper-bg">
     <div class="container">
         <div class="row padding5">
-            <div  id="login" class="col-md-12 green-color">
+            <div  id="login" class="col-md-6  col-sm-6 col-xs-6 green-color">
              <a href="<?php echo get_permalink(11);?>">Вход в аккаунт</a> &nbsp  &nbsp  &nbsp  
-			<a href="<?php echo get_permalink(11);?>">Запрос доступа</a> 	
-				
-                
+			<a href="<?php echo get_permalink(32);?>">Запрос доступа</a> 	
+            </div>
+			<div  id="logout" class="col-md-6 col-sm-6 col-xs-6 green-color">
+			<?php if ( is_user_logged_in() ) {
+							echo '<span>Вы вошли как </span><span id="login-user">'.wp_get_current_user()->user_login.'</span> &nbsp  &nbsp  &nbsp <a href="'.get_permalink(11).'/customer-logout/">Выход</a>';  
+						}?>
+             	
             </div>
 		</div>		
     </div>

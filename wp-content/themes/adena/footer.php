@@ -23,8 +23,9 @@
 					<p>Пн-Пт с 9 до 17</p>
 				</div>
 			</div>
-			
-			<form class="form-horizontal col-md-6" role="form">
+			<div class="col-md-6">
+			<h4 class="gray-color" id="feedback" >Обратная связь</h4>
+			<!--<form class="form-horizontal col-md-6" role="form">
 			<label><h4 class="gray-color" >Обратная связь</h4></label>
 			<div class="form-group">
 				<div class="col-md-8 ">
@@ -51,10 +52,12 @@
 					<button type="submit" class="btn btn-default">Отправить</button>
 				</div>
 			</div>
-			</form>
-            
+			</form>-->
+            <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('feedback')) : ?>
+					
+				<?php endif; ?>
 
-
+			</div>
         </div>
     </div>
         <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.11.3.min.js"></script>
