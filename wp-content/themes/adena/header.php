@@ -17,7 +17,11 @@
     <div class="container">
         <div class="row padding5">
             <div  id="login" class="col-md-6  col-sm-6 col-xs-6 green-color">
-             <a href="<?php echo get_permalink(11);?>">Вход в аккаунт</a> &nbsp  &nbsp  &nbsp  
+             <?php if ( is_user_logged_in() ) {
+							echo '<a href="'.get_permalink(11).'">Мои заказы</a>';   
+						}else{
+							echo '<a href="'.get_permalink(11).'">Вход в аккаунт</a>';  
+						}?> &nbsp  &nbsp  &nbsp  
 			<a href="<?php echo get_permalink(32);?>">Запрос доступа</a> 	
             </div>
 			<div  id="logout" class="col-md-6 col-sm-6 col-xs-6 green-color">
