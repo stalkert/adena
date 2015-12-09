@@ -44,13 +44,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="col-1">
 
 <?php endif; ?>
-
-<header class="title">
-	<h3><?php _e( 'Billing Address', 'woocommerce' ); ?></h3>
+<!--Удаляем вывод поля "Реквизиты оплаты" в информации о заказе-->
+<!--<header class="title">
+	<h3><?php //_e( 'Billing Address', 'woocommerce' ); ?></h3>
 </header>
 <address>
-	<?php echo ( $address = $order->get_formatted_billing_address() ) ? $address : __( 'N/A', 'woocommerce' ); ?>
-</address>
+	<?php //echo ( $address = $order->get_formatted_billing_address() ) ? $address : __( 'N/A', 'woocommerce' ); ?>
+</address>-->
 
 <?php if ( ! wc_ship_to_billing_address_only() && $order->needs_shipping_address() ) : ?>
 

@@ -10,7 +10,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
+/*
 $customer_id = get_current_user_id();
 
 if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shipping' ) !== 'no' ) {
@@ -26,26 +26,26 @@ if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shippi
 	), $customer_id );
 }
 
-$col = 1;
+$col = 1;*/
 ?>
-
-<h2><?php echo $page_title; ?></h2>
+<!-- удаление "мои адреса" в моем аккаунте-->
+<!--<h2><?php //echo $page_title; ?></h2>
 
 <p class="myaccount_address">
-	<?php echo apply_filters( 'woocommerce_my_account_my_address_description', __( 'The following addresses will be used on the checkout page by default.', 'woocommerce' ) ); ?>
-</p>
+	<?php //echo apply_filters( 'woocommerce_my_account_my_address_description', __( 'The following addresses will be used on the checkout page by default.', 'woocommerce' ) ); ?>
+</p>-->
+<!--
+<?php //if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shipping' ) !== 'no' ) echo '<div class="col2-set addresses">'; ?>
 
-<?php if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shipping' ) !== 'no' ) echo '<div class="col2-set addresses">'; ?>
+<?php //foreach ( $get_addresses as $name => $title ) : ?>
 
-<?php foreach ( $get_addresses as $name => $title ) : ?>
-
-	<div class="col-<?php echo ( ( $col = $col * -1 ) < 0 ) ? 1 : 2; ?> address">
+	<div class="col-<?php //echo ( ( $col = $col * -1 ) < 0 ) ? 1 : 2; ?> address">
 		<header class="title">
-			<h3><?php echo $title; ?></h3>
-			<a href="<?php echo wc_get_endpoint_url( 'edit-address', $name ); ?>" class="edit"><?php _e( 'Edit', 'woocommerce' ); ?></a>
+			<h3><?php //echo $title; ?></h3>
+			<a href="<?php //echo wc_get_endpoint_url( 'edit-address', $name ); ?>" class="edit"><?php _e( 'Edit', 'woocommerce' ); ?></a>
 		</header>
 		<address>
-			<?php
+			<?php/*
 				$address = apply_filters( 'woocommerce_my_account_my_address_formatted_address', array(
 					'first_name'  => get_user_meta( $customer_id, $name . '_first_name', true ),
 					'last_name'   => get_user_meta( $customer_id, $name . '_last_name', true ),
@@ -70,4 +70,6 @@ $col = 1;
 
 <?php endforeach; ?>
 
-<?php if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shipping' ) !== 'no' ) echo '</div>'; ?>
+<?php if ( ! wc_ship_to_billing_address_only() && get_option( 'woocommerce_calc_shipping' ) !== 'no' ) echo '</div>';*/ ?>
+-->
+</div>
