@@ -360,6 +360,27 @@ displey: inline-block;
 #logout{
 	text-align: right;
 }
+#item-list{
+	background-color: #fff;
+	margin-top: 40px;
+	position:relative;
+}
+.images img{
+	border: 1px solid #dcdddd;
+	margin: 15px 15px 15px 0px;
+	width:100%;
+	height: auto;
+}
+.images{
+	width:40%;
+	
+	
+}
+.summary {
+	position:absolute;
+	left:45%;
+	top:-5px;
+}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @charset "UTF-8";
