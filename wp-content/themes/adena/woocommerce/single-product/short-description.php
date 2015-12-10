@@ -18,6 +18,6 @@ if ( ! $post->post_excerpt ) {
 }
 
 ?>
-<div itemprop="description">
-	<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
+<div itemprop="description" id ="adena-short-description">
+	<span id="discrip">Описание: </span><?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
 </div>
