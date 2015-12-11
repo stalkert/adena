@@ -6,9 +6,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo( 'template_url' ); ?>/css/jquery.bxslider.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet">
+    
 	<?php wp_head();?>
-	
+	<link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet">
     
 
 </head>
