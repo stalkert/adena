@@ -42,7 +42,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	?>
 
 	<div class="summary entry-summary">
-
+		<!--<div id="vidtovara">
+		<span>Вид товара:</span><?php// echo  get_post_meta($post->ID,'vidtovara',true);?>
+		</div>-->
 		<?php
 			/**
 			 * woocommerce_single_product_summary hook
