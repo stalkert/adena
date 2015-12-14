@@ -23,21 +23,37 @@ Version: 1.0
    #wrapper-content{
 	padding-bottom:720px;
 	}
-
+	#button-search{
+	
+	width:40%;
+	}
+	#field-search{
+	width:60%;
+	}
 }
 @media screen and (max-width: 992px) {
 
 	#wrapper-content{
 	padding-bottom:720px;
 	}
-
+	
+	
+}
+@media screen and (min-width: 768px){
+	#button-search{
+	
+	width:15%;
+	}
+	#field-search{
+	width:85%;
+	}
 }
 @media screen and (min-width: 993px) {
 
 	#wrapper-content{
 	padding-bottom:400px;
 	}
-
+	
 }
 /*
 @media screen and (max-width: 991px){
@@ -625,6 +641,17 @@ margin-bottom: 40px;
 .shop_table tfoot tr:first-child{
 	display:none;
 }
+#woocommerce_product_search-2{
+	list-style:none;
+}
+#button-search{
+	float:right;
+	border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+	
+	background-color:#07a987;
+}
+
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 

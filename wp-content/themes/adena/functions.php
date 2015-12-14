@@ -6,7 +6,7 @@ register_nav_menus(
 
 if(function_exists('register_sidebar')){
 	register_sidebar(array('name' => 'woo_category'));
-	register_sidebar(array('name' => 'woo_cart'));
+	register_sidebar(array('name' => 'woo_search'));
 	register_sidebar(array('name' => 'feedback'));
 }
 define('WOOCOMMERCE_USE_CSS', false);

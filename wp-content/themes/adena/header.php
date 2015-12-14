@@ -65,10 +65,11 @@
 		<div class="row" id="search">
 			<div class="input-group col-md-8 col-md-offset-2 col-sm-10 col-xs-10">
 				
-					<input type="text" class="form-control" >
-					<span class="input-group-btn">
-						<button class="btn btn-default" type="button">Поиск!</button>
-					</span>
+					
+					<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('woo_search')) : ?>
+					
+					<?php endif; ?>
+					
 				</div>
 			</div>
 		</div>
