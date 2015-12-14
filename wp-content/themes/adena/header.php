@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="ru">
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+	<script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+	<![endif]-->
      <meta charset="<?php bloginfo( 'charset' ); ?>">
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
