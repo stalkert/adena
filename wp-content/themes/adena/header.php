@@ -13,6 +13,8 @@
 
 </head>
 <body>
+<div id="wrapper-futer-bottom">
+<div id="wrapper-content">
 <div class="wrapper-bg">
     <div class="container">
         <div class="row padding5">
@@ -36,7 +38,7 @@
 	<div class="row gray-line">
             
     </div>
-<div class="wrapper-bg">	
+<div class="wrapper-bg">
     <div class="container ">    
         <div class="row padding10">
 			<div  id="logo" class="col-md-2 col-sm-2">
@@ -71,4 +73,3 @@
 			</div>
 		</div>
 	</div>
-</div>

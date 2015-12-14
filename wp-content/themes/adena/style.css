@@ -20,7 +20,23 @@ Version: 1.0
 	margin-right: 10px;
 	min-height: 350px;
 	}
-   
+   #wrapper-content{
+	padding-bottom:720px;
+	}
+
+}
+@media screen and (max-width: 992px) {
+
+	#wrapper-content{
+	padding-bottom:720px;
+	}
+
+}
+@media screen and (min-width: 993px) {
+
+	#wrapper-content{
+	padding-bottom:400px;
+	}
 
 }
 /*
@@ -63,7 +79,9 @@ Version: 1.0
 }
 
 */
-
+html{
+	height:100%;
+}
 body {
     margin: 0;
     font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
@@ -71,6 +89,7 @@ body {
     line-height: 20px;
     color: #3C3C3C!important;
     background-color: #f5f5f5;
+	height:100%;
 }
 h1,h2,h3,h4{
 font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
@@ -79,8 +98,19 @@ font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
 	background-color: #fff;
 }
 
+#wrapper-futer-bottom{
+	position:relative;
+	min-height:100%;
+	
+}
 
-
+#footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	min-height:400px;
+}
 .gray-line{
 border-bottom: 1px solid #D4D4D4;
 }
@@ -248,7 +278,7 @@ font-size:1.2em;
 }
 
 #footer{
-margin-top:40px;
+
 	background-color:#222222;
 	color:#999999;
 }
@@ -391,6 +421,7 @@ td.product-name a{
 	margin-top: 40px;
 	position:relative;
 	min-height: 350px;
+	margin-bottom:40px;
 }
 .images img{
 	border: 1px solid #dcdddd;

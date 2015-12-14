@@ -1,3 +1,4 @@
+</div>
 <div class="row" id="footer">
             <div class="container" >
 			<h3 class="col-md-10 gray-color" >Наши контакты</h3>
@@ -60,6 +61,7 @@
 			</div>
         </div>
     </div>
+</div>	
         <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.11.3.min.js"></script>
 
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
