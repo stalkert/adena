@@ -5143,7 +5143,7 @@ msgstr "Бесплатно!"
 
 #: includes/abstracts/abstract-wc-order.php:1825
 msgid "Subtotal:"
-msgstr "Подытог:"
+msgstr "Сумма к оплате:"
 
 #: includes/abstracts/abstract-wc-order.php:1832
 msgid "Discount:"
@@ -9903,7 +9903,7 @@ msgstr "Сумма в корзине"
 #: templates/cart/cart-totals.php:24 templates/cart/mini-cart.php:71
 #: templates/checkout/review-order.php:50
 msgid "Subtotal"
-msgstr "Подытог"
+msgstr "Сумма к оплате"
 
 #: templates/cart/cart-totals.php:78 templates/cart/cart.php:30
 #: templates/checkout/review-order.php:18

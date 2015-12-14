@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		}
 	?></th>
 	<td>
-		<?php if ( ! empty( $available_methods ) ) : ?>
+		<?php /*if ( ! empty( $available_methods ) ) : ?>
 
 			<?php if ( 1 === count( $available_methods ) ) :
 				$method = current( $available_methods );
@@ -99,7 +99,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php endif; ?>
 
 		<?php if ( is_cart() ) : ?>
-			<?php woocommerce_shipping_calculator(); ?>
-		<?php endif; ?>
+			<?php //woocommerce_shipping_calculator(); ?>
+		<?php endif; */?>
+		Оговаривается с менеджером
 	</td>
 </tr>

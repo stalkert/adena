@@ -1,4 +1,5 @@
 <?php
+define('WOOCOMMERCE_USE_CSS', false);
 register_nav_menus(
 		array('cart-menu'=>'Меню корзины')//'sidebar-menu'=>'sidebar-menu1'
 	);

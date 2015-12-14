@@ -20,10 +20,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<table cellspacing="0">
 
-		<tr class="cart-subtotal">
-			<th><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
-			<td><?php wc_cart_totals_subtotal_html(); ?></td>
-		</tr>
+		<!--<tr class="cart-subtotal">
+			<th><?php //_e( 'Subtotal', 'woocommerce' ); ?></th>
+			<td><?php //wc_cart_totals_subtotal_html(); ?></td>
+		</tr>-->
 
 		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
 			<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
@@ -44,7 +44,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<tr class="shipping">
 				<th><?php _e( 'Shipping', 'woocommerce' ); ?></th>
-				<td><?php woocommerce_shipping_calculator(); ?></td>
+				<td><?php //woocommerce_shipping_calculator(); ?> Оговаривается с менеджером</td>
 			</tr>
 
 		<?php endif; ?>
