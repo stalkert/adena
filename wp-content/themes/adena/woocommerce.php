@@ -7,6 +7,7 @@
 			 <?php echo  get_post_meta($post->ID,'brands',true);?>
 				<?php woocommerce_content();?>
              </div>
+             
                 
         </div>
 

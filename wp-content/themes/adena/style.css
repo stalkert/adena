@@ -98,7 +98,7 @@ Version: 1.0
 html{
 	height:100%;
 }
-body {
+body{
     margin: 0;
     font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -651,8 +651,46 @@ margin-bottom: 40px;
 	
 	background-color:#07a987;
 }
+.woocommerce-pagination {
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px auto;
+    padding-left: 0;
+    
+}
+.page-numbers{
+	list-style: none;
+	
+	
+}
 
+.page-numbers {
+	border-radius: 4px;
+   
 
+    border:1px solid #dcdddd;
+    display: inline-block;
+    padding: 10px 17px;
+}
+
+.page-numbers li ,.page-numbers li span{
+	font-size: 1.2em;
+	 margin: 0;
+    font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3C3C3C;
+    font-weight: bold;
+    display: inline-block;
+}
+span.current{
+	color:#fff!important;
+	background-color: #07a987;
+
+}
+ul.page-numbers{
+	border: 0;
+}
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 
