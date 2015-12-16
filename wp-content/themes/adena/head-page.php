@@ -42,7 +42,17 @@ get_header(); ?>
 				</div>
              </div>
                 
-        </div>    
+        </div> 
+        	
+        		<div class="row">
+        			<div class="col-md-12" id="adena-video">
+        			<h3 class="green-color gray-line">Видео</h3>
+        			<?php $query1=new WP_Query('page_id=14');//страница с id=4 (head page)
+        					while($query1->have_posts()) $query1->the_post();?>
+        					<?php the_content(); ?>
+        					<?php wp_reset_query(); ?> </div>
+        		</div>
+        	
 
         </div>
     <?php get_footer(); ?>     

@@ -49,14 +49,14 @@
              <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png"> 	
             </div>
             <ul id="navbar" class="nav navbar-nav col-md-7 col-sm-9 ">
-                <li class="active"><a href="<?php bloginfo( 'url' ); ?>">Главная</a></li>
-                <li><a href="<?php if ( is_user_logged_in() ) {
+                <li class="<?php if(get_permalink()==get_permalink(14)){echo 'active';}; ?>"><a href="<?php bloginfo( 'url' ); ?>">Главная</a></li>
+                <li class="<?php if(get_current_URL()==get_page_link(16)||get_current_URL()==get_page_link(8)){echo 'active';}; ?>"><a href="<?php if ( is_user_logged_in() ) {
 							echo get_permalink(16);
 						}else{
 						echo get_permalink(11);
 						};?>"><?php  echo get_the_title(16);?></a></li>
-                 <li><a href="#">Контакты</a></li>
-                 <li><a href="#">Где купить</a></li>
+                 <li class="<?php if(get_current_URL()==get_page_link(169)){echo 'active';}; ?>"><a href="<?php echo get_permalink(169)?>">Контакты</a></li>
+                 <li class="<?php if(get_current_URL()==get_page_link(171)){echo 'active';}; ?>"><a href="<?php echo get_permalink(171)?>">Где купить</a></li>
             </ul>
 			<div  id="shopping-cart" class="col-md-2 col-sm-2 col-xs-12">
 				
