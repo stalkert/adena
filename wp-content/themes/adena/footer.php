@@ -6,7 +6,7 @@
 				<div class="contact-information">
 					<i class="glyphicon glyphicon-map-marker gray-color"></i>
 					<p>Адрес</p>
-					<p>г.Киев, ул.Л.Руденко 64 оф 529 (5этаж)</p>
+					<p>г.Киев, ул.Л.Руденко 6А оф 529 (5 этаж)</p>
 				</div>
 				<div class="contact-information">
 					<i class="glyphicon glyphicon-earphone gray-color"></i>
