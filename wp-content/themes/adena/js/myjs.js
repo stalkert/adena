@@ -2,6 +2,8 @@
  * Created by ITaranenko on 8/17/2015.
  */
 $(document).ready(function(){
+	 var checked_item = [];
+        $('.berocket_aapf_widget').before('<button class="clear-filtr-display-none" id="clear-filtr">Очистить все фильтры</button>');
 	var login = $('.woocommerce>h2').html();
 	
 	if(login ==='Авторизация'){
@@ -12,7 +14,9 @@ $(document).ready(function(){
 	$('.bxslider').bxSlider({
 	  mode: 'fade',
 	  adaptiveHeight: true,
-	  
+	  auto:true,
+	  pause:8000,
+	  speed:1000,
 		captions: true
 	});
 	
@@ -28,7 +32,7 @@ $(document).ready(function(){
 		
 		var koordImg = $('img.attachment-shop_single').offset();
 		
-             $("img.attachment-shop_single").clone().css({'position' : 'absolute', 'z-index' : '100','height':'300px','width':'auto'}).appendTo(".images").animate({
+             $("img.attachment-shop_single").clone().css({'position' : 'absolute', 'z-index' : '100','height':'300px','width':'auto'}).prependTo(".images").animate({
 				 opacity: 0.5,
 				 top: -(koordImg.top-koordCart.top),
 				 left:koordCart.left-koordImg.left,
@@ -36,5 +40,21 @@ $(document).ready(function(){
                     $(this).remove();  
               });  
          }); 
+	 $('.berocket_aapf_widget input').on("change", function(){
+	 		
+	 	$('.berocket_aapf_widget input').each(function(){
+                
+                
+                if($(this).prop('checked')){
+                    checked_item.push(1);
+                    }
+            });
+	 	console.log(checked_item);
+            if(checked_item){
+                $('#clear-filtr').removeClass('clear-filtr-display-none');
+            }else{
+                $('#clear-filtr').addClass('clear-filtr-display-none');
+            }
+	 });
 	 
 });

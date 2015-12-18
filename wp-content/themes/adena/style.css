@@ -449,6 +449,36 @@ td.product-name a{
 	
 	
 }
+table.variations .value{
+	color: #07a987;
+}
+.images .thumbnails{
+	width:100%;
+	
+}
+.images .thumbnails a{
+	display: inline-block;
+	width: 32%;
+	height: 80px;
+	padding:5px;
+	border: 1px solid #07a987;
+	margin:2px;
+	overflow:hidden;
+}
+.images .thumbnails a img{
+	width: auto;
+	height: 100%;
+	border: 0;
+}
+.clear-filtr-display-none{
+	display:none;
+}
+#gde-kupit,#gde-kupit table{
+	width:100%;
+}
+#gde-kupit table tr:nth-child(2n+1){
+	background-color: #b7ffd8;
+}
 .order-info{
 	margin-top: 10px;
 	background-color: #fff;
