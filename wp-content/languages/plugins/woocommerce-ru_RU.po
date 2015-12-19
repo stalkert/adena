@@ -7489,7 +7489,7 @@ msgstr "Подробнее"
 
 #: includes/class-wc-product-variable.php:43
 msgid "Select options"
-msgstr "Выбрать опции"
+msgstr "Выбрать"
 
 #: includes/class-wc-product-variable.php:693
 msgid ""

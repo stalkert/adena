@@ -54,7 +54,7 @@
 							echo get_permalink(16);
 						}else{
 						echo get_permalink(11);
-						};?>"><?php  echo get_the_title(16);?></a></li>
+						};?>">Оптовым покупателям</a></li>
                  <li class="<?php if(get_current_URL()==get_page_link(169)){echo 'active';}; ?>"><a href="<?php echo get_permalink(169)?>">Контакты</a></li>
                  <li class="<?php if(get_current_URL()==get_page_link(171)){echo 'active';}; ?>"><a href="<?php echo get_permalink(171)?>">Где купить</a></li>
             </ul>
