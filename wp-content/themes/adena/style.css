@@ -446,8 +446,11 @@ td.product-name a{
 }
 #item-list>p:first-child{
 	margin-top: 40px;
-	
-	
+}
+#gde-kupit p{
+	background-color: #ccc;
+	margin:0;
+	padding: 5px 0;
 }
 table.variations .value{
 	color: #07a987;
