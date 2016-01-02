@@ -522,6 +522,8 @@ table.variations .value{
 	width: 60%;
 	margin-top:15px;
 }
+
+
 .product_meta{
 	position:absolute;
 	top:50px;
@@ -853,6 +855,9 @@ position: relative;
     vertical-align: middle;
     white-space: nowrap;
     line-height: normal;
+}
+.single_variation {
+	margin-bottom: 10px;
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 

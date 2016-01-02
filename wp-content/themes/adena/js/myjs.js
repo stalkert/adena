@@ -2,6 +2,15 @@
  * Created by ITaranenko on 8/17/2015.
  */
 $(document).ready(function(){
+	 $(".price").each(function(){
+			 	var proverka = $(this).find("span.amount");
+			 	if(proverka.length>1){
+			 		console.log("Должно спрятаться!");
+			 		$(this).css("display","none");	
+			 	}
+			 	
+
+			 });
 	
         $('.berocket_aapf_widget:last-child').after('<button  id="clear-filtr">Очистить все фильтры</button>');
 	var login = $('.woocommerce>h2').html();
