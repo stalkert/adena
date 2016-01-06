@@ -50,3 +50,17 @@ global $product;
 <?php if ( $price_html = $product->get_price_html() ) : ?>
 	<span class="price"><?php echo $price_html; ?></span>
 <?php endif; ?>
+<div class="cena-za-upakovku" >
+	<?php
+		$cur_terms = get_the_terms( $post->ID, 'pa_cena-za-upakovku' );
+		if($cur_terms){
+		foreach($cur_terms as $cur_term){
+			
+				echo '<span class="sku">'.$cur_term->name.'</span>';
+				}
+		
+	}
+?>
+
+	
+</div>

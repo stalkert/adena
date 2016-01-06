@@ -53,4 +53,14 @@ $(document).ready(function(){
 	 	var hrefCurrentPage = location.href;
 	 	location.href = hrefCurrentPage;
 	 });
+	 var heightText = $("#adena-short-description").height();
+	 var heightImg = $("div.images").outerHeight();
+	 if(heightText > 40){
+	 	heightText = heightText-40+350;
+	 	if(heightImg > heightText){
+	 		$("#item-list").height(heightImg+40);
+	 	}else{
+	 		$("#item-list").height(heightText);
+	 	}
+	 }
 });
