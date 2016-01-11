@@ -634,21 +634,21 @@ width:auto;
 	
 }
 .woocommerce ul.products li.product h3, ul.products li.product h3{
-	position:absolute;
-	bottom:140px;
+	/*position:absolute;
+	bottom:140px;*/
 	text-align:center; 
 	width:100%;
 	font-size:1.5em!important;
 }
 .artikul{
-	position:absolute;
-	bottom:115px;
+	/*position:absolute;
+	bottom:115px;*/
 	text-align:center; 
 	width:100%;
 }
 .kolekciya{
-	position:absolute;
-	bottom:86px;
+	/*position:absolute;
+	bottom:86px;*/
 	text-align:center; 
 	width:100%;
 }
@@ -662,8 +662,8 @@ table.xdebug-error{
 	text-decoration: none!important;
 }
 .woocommerce ul.products li.product span.price , ul.products li.product span.price {
-	position:absolute;
-	bottom:70px;
+	/*position:absolute;
+	bottom:70px;*/
 	text-align:center; 
 	width:100%;
 }
@@ -672,7 +672,7 @@ ul.products li.product .price {
     display: block;
     font-size: 0.857em;
     font-weight: 400;
-    margin-bottom: 0.5em;
+    
 }
 
 .woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){
@@ -689,7 +689,7 @@ ul.products li{
     margin: 0 2.5% 2.992em 0;
     padding: 0;
     position: relative;
-	min-height: 405px;
+	min-height: 435px;
    border: 1px solid #dcdddd;
     text-align: center;
 }
@@ -860,11 +860,14 @@ position: relative;
 	margin-bottom: 10px;
 }
 .cena-za-upakovku{
-	position: absolute;
+	/*position: absolute;*/
 	color:#3C3C3C;
-	bottom:55px;
+	/*bottom:55px;*/
 	text-align: center;
     width: 100%;
+
+}
+.wrapper-art-kol-price{
 
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
