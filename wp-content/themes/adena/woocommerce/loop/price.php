@@ -46,7 +46,23 @@ global $product;
 	
 		
 	</div>
+	<div class="size">
 	
+		<?php
+			$cur_terms = get_the_terms( $post->ID, 'pa_size' );
+			if($cur_terms){
+				echo '<div class="size">';
+				echo '<span>Размеры:</span> ';
+			foreach($cur_terms as $cur_term){
+				
+					echo $cur_term->name.'&nbsp';
+					}
+			echo '</div>';
+		}
+	?>
+	
+		
+	</div>
 	
 	
 	<?php if ( $price_html = $product->get_price_html() ) : ?>

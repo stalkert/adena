@@ -169,11 +169,12 @@ color:#07A987!important;
 	width: 66%;
 }
 
-.kolekciya,.artikul, #navbar a, h1,.woocommerce ul.products li.product a h3,.woocommerce ul.products li.product a span.price span.amount,ul.products li.product a span.price span.amount,ul.products li.product a h3{
+.size span,.kolekciya,.artikul, #navbar a, h1,.woocommerce ul.products li.product a h3,.woocommerce ul.products li.product a span.price span.amount,ul.products li.product a span.price span.amount,ul.products li.product a h3{
 font-size: 1.15em;
 	font-weight: bold;
 	color:#3C3C3C;
 }
+
 #brends,.widget-title{
 	background-color:#07A987;
 	color: #fff;
@@ -541,6 +542,9 @@ table.variations .value{
 	font-size:1.8em;
 	color: #07a987;
 }
+.price{
+	margin-top: 10px;
+}
 .variations_form {
 	color:#999;
 	margin-top:10px;
@@ -646,11 +650,15 @@ width:auto;
 	text-align:center; 
 	width:100%;
 }
-.kolekciya{
+.kolekciya, .size{
 	/*position:absolute;
 	bottom:86px;*/
 	text-align:center; 
 	width:100%;
+	color:#3C3C3C;
+}
+.size{
+	margin-top: -10px;
 }
 #clear-filtr{
 	margin: 0 0 20px 40px;

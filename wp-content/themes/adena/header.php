@@ -28,7 +28,7 @@
 						}else{
 							echo '<a href="'.get_permalink(11).'">Вход в аккаунт</a>';  
 						}?> &nbsp  &nbsp  &nbsp  
-			<a href="<?php echo get_permalink(32);?>">Запрос доступа</a> 	
+			<a href="<?php echo get_permalink(32);?>">Регистрация</a> 	
             </div>
 			<div  id="logout" class="col-md-6 col-sm-6 col-xs-6 green-color">
 			<?php if ( is_user_logged_in() ) {
