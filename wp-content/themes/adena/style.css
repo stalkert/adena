@@ -30,13 +30,18 @@ Version: 1.0
 	#s{
 	width:60%;
 	}
+	ul.products li.product a img {
+	width:90%!important;	
+	}
 }
 @media screen and (max-width: 992px) {
 
 	#wrapper-content{
 	padding-bottom:720px;
 	}
-	
+	ul.products li.product a img {
+	width:90%!important;	
+	}
 	
 }
 @media screen and (min-width: 768px){
